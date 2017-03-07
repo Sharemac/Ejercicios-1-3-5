@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Futbol;
+package Ejercicio1;
 
 import becker.robots.City;
 import becker.robots.Direction;
@@ -18,7 +18,8 @@ public class Futbol {
    private Thing balon;
    
    
-   public Futbol(){int a=6, b=9, c=6, d=9;
+   public Futbol(){
+       int a=6, b=9, c=6, d=9;
        this.unal = new City(11, 11);
        this.balon = new Thing (this.unal,9 ,9);
        this.jack = new Robot(unal, 9, 9, Direction.WEST);
